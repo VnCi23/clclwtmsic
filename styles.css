@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color:  #65451F;
+  }
+  
+  .container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center; /* Center text within the container */
+  }
+  
+  .music-player {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .clock {
+    font-size: 10rem;
+    padding: 1rem;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #EAC696;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .calendar {
+    font-size: 3rem;
+    text-align: center;
+    color: #EAC696;
+  }
+  
+  .fullscreen-button {
+    margin-top: 20px;
+    text-align: center;
+  }
+  button{
+    background-color: #EAC696;
+    width: 100px;
+    height: 30px;
+  }
+  
+  
+  /* Media Query for smaller screens */
+  @media screen and (max-width: 480px) {
+    .clock {
+      font-size: 5rem;
+    }
+    
+    .calendar {
+      font-size: 2rem;
+    }
+  }
+  
