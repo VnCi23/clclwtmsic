@@ -133,7 +133,7 @@ const playlist = [
   'track81.mp3',
   'track82.mp3',
   'track83.mp3',
-  'track83.mp3'
+  'track84.mp3'
 ];
 
 let currentTrackIndex = 0;
